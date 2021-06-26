@@ -5,7 +5,7 @@
 
 function main()
 	-- CODE HERE
-end;
+end
 
 -- If run this script from QUIK then this main() function will be
 -- executed 1 time and the script will stop.
