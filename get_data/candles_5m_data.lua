@@ -61,3 +61,6 @@ function main()
     end
 end
 
+function OnStop()
+    IS_RUN = false
+end
