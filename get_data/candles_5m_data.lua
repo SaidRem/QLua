@@ -1,3 +1,6 @@
+-- Recieves data from the Quik terminal:
+-- Instrument name, Period (5 minute), date (yyyymmdd), time(HHMMSS), Open, High, Low, Close, Volume
+-- Data saves in the 'save_to' folder.
 
 
 IS_RUN = true  -- Flag to support the script
