@@ -32,7 +32,8 @@ function main()
         for i = 1, #DATA_CODES do
             instrument = DATA_CODES[i][1]
             out_file = io.open(save_to.."\\"..DATA_CODES[i][1]..".csv", "w")
-            ds = CreateDataSource(DATA_CODES[i][1], instrument, INTERVAL)  -- Create data source.
+            ds = CreateDataSource(DATA_CODES[i][2], instrument, INTERVAL)  -- Create data source.
+	    ds:SetEmptyCallback()
 
             local Size = ds:Size()  -- Get total amount of bars in data source.
             if BARS > Size then 
