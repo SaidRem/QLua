@@ -13,6 +13,8 @@ filename = "E:\\data"
 BARS = 250
 
 function strText(i)
+    -- Add "0" to the beginnig of the number.
+    -- Return str.
     local m = tostring(i)
     local mLen = string.len(i)
 
@@ -41,7 +43,7 @@ function main()
                 Size = ds:Size()
                 x = x + 1
                 -- message('Waiting for '..instrument)
-                sleep(250)
+                sleep(250)  -- Wait for data.
             end
         end
 
