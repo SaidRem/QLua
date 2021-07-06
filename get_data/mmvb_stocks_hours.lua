@@ -1,11 +1,10 @@
--- TODO: Get data from MMVB by hours.
 IS_RUN = true
 
 STOCK_CODES = {"SBER","GAZP","LKOH","GMKN","ALRS","NLMK","ROSN","RUAL","PLZL","VTBR",
                "YNDX","TATN","FIVE","POLY","CHMF","AFKS","MOEX","NVTK","AFLT","SNGS",
-			   "MAGN","OZON","IRAO","SBERP","TCSG","SNGSP","MGNT","MTSS","MAIL","SIBN",
-			   "TATNP","PHOR","TRNFP","CBOM","RTKM","HYDR","RASP","POGR","FEES","MVID",
-			   "FLOT","DSKY","OGKB","RSTI","UPRO","ENPG","PIKK","BANEP",}
+	       "MAGN","OZON","IRAO","SBERP","TCSG","SNGSP","MGNT","MTSS","MAIL","SIBN",
+	       "TATNP","PHOR","TRNFP","CBOM","RTKM","HYDR","RASP","POGR","FEES","MVID",
+	       "FLOT","DSKY","OGKB","RSTI","UPRO","ENPG","PIKK","BANEP",}
 
 PERIOD = INTERVAL_H1
 correct_time = 3 
