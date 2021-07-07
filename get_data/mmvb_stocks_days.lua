@@ -1,4 +1,4 @@
--- TODO: Get data from MMVB by days
+-- Get price data by days from Quik terminal.
 
 IS_RUN = true
 
@@ -8,8 +8,8 @@ STOCK_CODES = {"SBER","GAZP","LKOH","GMKN","ALRS","NLMK","ROSN","RUAL","PLZL","V
 	       "TATNP","PHOR","TRNFP","CBOM","RTKM","HYDR","RASP","POGR","FEES","MVID",
 	       "FLOT","DSKY","OGKB","RSTI","UPRO","ENPG","PIKK","BANEP",}
 PERIOD = INTERVAL_D1
-correct_time = 3
-filename = "E:\\data"
+correct_time = 3  -- Correct for MSC time.
+filename = "E:\\data"  -- Storage folder for all data.
 BARS = 250
 
 function strText(i)
@@ -38,7 +38,7 @@ function main()
 
         local Size = ds:Size()
         local x = 0
-        if Size == 0 then
+        if Size == 0 then  -- If data is not ready then wait in the loop.
             while x < 10 and Size == 0 do
                 Size = ds:Size()
                 x = x + 1

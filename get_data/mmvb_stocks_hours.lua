@@ -1,4 +1,5 @@
 -- Get price data from Quik terminal
+
 IS_RUN = true
 
 STOCK_CODES = {"SBER","GAZP","LKOH","GMKN","ALRS","NLMK","ROSN","RUAL","PLZL","VTBR",
