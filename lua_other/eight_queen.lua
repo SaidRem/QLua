@@ -1,3 +1,8 @@
+-- The eight queen puzzle is the problem of placing eight chess queen
+-- on a 8x8 chessboard so that no two queen threaten each other.
+-- The solution provides that no two queens share the same row, column,
+-- or diagonal. Thus, the puzzle is solved.
+
 N = 8  -- board size
 
 -- check whether position (n, c) is free from attacks
